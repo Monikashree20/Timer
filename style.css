@@ -1,0 +1,21 @@
+.timer-container{
+    justify-content: center;
+    position: relative;
+    top: 350px;
+}
+#timer{
+    font-size: 40px;
+}
+#start,#stop,#reset{
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#start:hover,#stop:hover,#reset:hover{
+    background-color: #FF007F;
+}
+body{
+    background-image: url("hourClock.jpg");
+    background-size: cover;
+}
